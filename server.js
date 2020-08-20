@@ -3,7 +3,6 @@ const express = require('express');
 const app = express();
 
 // Bring in Routes
-// Bring in Routes
 app.use('/api/users', require('./routes/users'));
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/jobs', require('./routes/jobs'));
